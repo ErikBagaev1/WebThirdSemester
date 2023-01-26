@@ -1,6 +1,7 @@
 body{
 	width: 1140px;
 	margin: 0 auto;
+	font-family: 'Roboto';
 }
 
 a{
@@ -11,7 +12,11 @@ a{
 	color: rgba(28, 41, 77, 0.8);
 	margin: 5px;
 }
+a:hover{
+	color: rgba(170, 17, 17, 0.8);
+}
 ul{
+	padding-left: 0;
 	list-style-type: none;
 }
 li{
@@ -19,12 +24,14 @@ li{
 }
 input {
   box-sizing: border-box;
-  width: 446px; 
+  width: 430px; 
   margin: 0;
   padding: 0;
   height: 40px;
+  border: none;
 } 
 span{
+	
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 20px;
@@ -44,14 +51,23 @@ span{
 .search_blok{
 	margin-left: 30px;
 	width: 573px;
-	background: #FFFFFF;
-	border: 1px solid #DFE0E1;
-	border-radius: 5px;
+	border-top: 1px solid #DFE0E1;
+	border-bottom: 1px solid #DFE0E1;
+	border-left: 1px solid #DFE0E1;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
 	height: 40px;
 }
 .search{
 	border-top: 1px solid #DFE0E1;
 	padding-top: 20px;
+
+}
+.search a{
+	font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
 }
 .search_button{
 	padding: 0;
@@ -60,4 +76,9 @@ span{
 	width: 123px;
 	border: none;
 	background: #FF7A00;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.search_button:hover{
+	background: #FF4A00;
 }
