@@ -38,6 +38,7 @@ span{
 	color: #FFFFFF;
 
 }
+
 .about .uil{
 	color: rgba(28, 41, 77, 0.8);
 }
@@ -47,6 +48,10 @@ span{
 .justify{
 	display: flex;
 	justify-content: space-between;
+}
+.justify_start{
+	display: flex;
+	justify-content: start;
 }
 .search_blok{
 	margin-left: 30px;
@@ -81,4 +86,18 @@ line-height: 16px;
 }
 .search_button:hover{
 	background: #FF4A00;
+}
+.nav a{
+	font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #1C294D;
+}
+.nav a:hover{	
+color: #FF283D;
+
+}
+.uil-tag{
+	margin-right: 5px;
+	
 }
