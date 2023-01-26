@@ -1,9 +1,18 @@
 body{
-	width: 1140px;
-	margin: 0 auto;
+	
 	font-family: 'Roboto';
 }
-
+header{
+	background: #FFFFFF;
+}
+.widht_center{
+	width: 1140px;
+	margin: 0 auto;
+}
+	.seporator{
+		border-top: 1px solid #DFE0E1;
+		height: 2px;
+	}
 a{
 	text-decoration: none;
 	font-weight: 400;
@@ -64,7 +73,7 @@ span{
 	height: 40px;
 }
 .search{
-	border-top: 1px solid #DFE0E1;
+	
 	padding-top: 20px;
 
 }
@@ -101,3 +110,84 @@ color: #FF283D;
 	margin-right: 5px;
 	
 }
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------
+*/
+.main{
+	background: #E5E5E5;
+	width: 100%;
+}
+.main_left_top{
+	width: 750px;
+	height: 350px;
+	margin-bottom: 30px;
+	margin-left: -5px;
+
+}
+.blok_main{
+	width: 360px;
+	height: 140px;
+}
+.blok_1 p{
+color: #FFFFFF;
+font-weight: 600;
+margin:  auto;
+font-size: 20px;
+line-height: 25px;	
+}
+.blok_1 span{
+color: #FF7A00;	
+font-size: 20px;
+line-height: 25px;	
+font-weight: 600;
+}
+
+
+.blok_2 p{
+	margin:  auto;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+	color: rgba(28, 41, 77, 0.8);
+}
+.blok_2 span{
+	margin:  auto;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+	color: #62bf9d;
+}
+.circule{
+	margin: 20px;
+	margin-left: 0;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+}
+.blok_1{
+	background-image: url(img/Rectangle3.png);
+}
+.blok_2{
+	background-image: url(img/Rectangle2.png);
+}
+.swiper {
+	width: 100%;
+	height: 100%;
+  }
+
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }

@@ -8,12 +8,18 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
 
 	<title>Market</title>
 </head>
 <body>
 	<header>
-		<div class="about justify">
+		<div class="about justify widht_center">
 			<div class="about_left justify">
 				<ul class="justify">
 					<li><a href="#"><i class="uil uil-location-point"></i>Москва</a> </li>
@@ -21,7 +27,7 @@
 				    <li><i class="uil uil-sign-alt"><a href="#">Адрес и часы работы</a></i></li>
 			    </ul>
 			</div>
-			<div class="about_right justify">
+			<div class="about_right justify ">
 					<ul class="justify">
 					<li><i class="uil uil-envelope-check"><a href="#">market@estatut.ru</a></i></li>
 				    <li><i class="uil uil-phone-pause"><a href="#">8 (968) 660-65-50</a></i></li>
@@ -29,7 +35,8 @@
 
 			</div>
 		</div>
-		<div class="search justify">
+		<div class="seporator"></div>
+		<div class="search justify widht_center">
 			<div class="search_left justify">
 				<img src="img/logo.png" alt="">
 				
@@ -53,8 +60,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="nav">
-			
+		<div class="nav widht_center">	
 			<ul class="justify_start">
 				<li><a href="#"><i class="uil uil-list-ul"></i></a><a href="#">Каталог</a></li>
 				<li><a href="#">Авторы</a></li>
@@ -65,5 +71,65 @@
 			</ul>
 		</div>
 	</header>
+	<div class="main">
+
+		<div class="main_center widht_center justify">
+
+			<div class="main_left">
+				<div class="main_left_top">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+						  <div class="swiper-slide"><img src="img/Rectangle.png" alt=""></div>
+						  <div class="swiper-slide"><img src="img/Rectangle2.png" alt=""></div>
+						  <div class="swiper-slide"><img src="img/Rectangle3.png" alt=""></div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+					  </div>
+					
+					  <!-- Swiper JS -->
+					  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+					</div>
+				<div class="main_left_bottom justify">
+					<div class="blok_1 blok_main justify">
+						<p><span>Бесплатно</span>	 доставим
+							<br>ваш заказ  при<br>
+							покупке от 2000 ₽</p>
+							<div class="circule">
+
+							</div>
+					</div>
+					<div class="blok_2 blok_main justify"> 
+<p>Скидка <br>
+	при регистрации <br>
+	до <span>15%</span>	</p>
+						<div class="circule">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_right"><a href="#"><img src="img/book.png" alt=""></a></div>
+		</div>
+
+
+
+	</div>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+		  cssMode: true,
+		  navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		  },
+		  pagination: {
+			el: ".swiper-pagination",
+		  },
+		  mousewheel: true,
+		  keyboard: true,
+		});
+	  </script>
 </body>
+
 </html>
